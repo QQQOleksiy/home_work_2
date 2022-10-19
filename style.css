@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.grandpa{
+    background: #08bcd4;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+
+.father{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child{
+    width: 80%;
+    height: 20%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+}
+
+.head_opis{
+    width: 75%;
+    height: 100%;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 35%;
+}
+
+.opis{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+}
+
+.head_text{
+    margin: 0;
+    color: #e3be1d;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+.opis_text{
+    margin: 0;
+    color: #737171;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
