@@ -7,7 +7,7 @@ body{
 .grandpa{
     background: #08bcd4;
     width: 1000px;
-    height: 700px;
+    height: 600px;
     display: flex;
 }
 
@@ -22,7 +22,7 @@ body{
 
 .child{
     width: 80%;
-    height: 20%;
+    height: 25%;
     background: white;
     border-radius: 10px;
     display: flex;
